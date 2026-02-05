@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:   # 👈 手动运行按钮
 
 jobs:
   deploy:
